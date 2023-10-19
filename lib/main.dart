@@ -66,6 +66,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       floatingActionButton: Row(
+        mainAxisAlignment: MainAxisAlignment.end,
         children: [
           FloatingActionButton(
             onPressed: _incrementCounter,
